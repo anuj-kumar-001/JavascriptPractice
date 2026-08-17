@@ -31,5 +31,5 @@ let myTime=Date.now();   // This gives time in milisecond from an arbitrarty dat
 
 
 /* Creating customizable Format */
- myDate.toLocaleString('default' ,{ weekday : "long"})
+ 
  console.log( myDate.toLocaleString('default' ,{ weekday : "long"}))
