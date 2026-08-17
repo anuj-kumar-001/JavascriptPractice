@@ -23,10 +23,10 @@ const orders = [
 
 // finding the sum of all product prices
 
-const totalPrice=orders.reduce( (acc,val)=> (acc+val.price) , 0)
-console.log(totalPrice)
+// const totalPrice=orders.reduce( (acc,val)=> (acc+val.price) , 0)
+// console.log(totalPrice)
 
-// finding total quantity of all products
+// // finding total quantity of all products
 
-const totalqty = orders.reduce( (acc, val)=> acc+val.quantity , 0)
-console.log(totalqty)
+// const totalqty = orders.reduce( (acc, val)=> acc+val.quantity , 0)
+// console.log(totalqty)
